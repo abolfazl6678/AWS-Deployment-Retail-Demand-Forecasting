@@ -1,4 +1,4 @@
-# Retail-Demand-Forecasting-AWS-Deployment !!!!!!
+# Retail-Demand-Forecasting-AWS-Deployment
 This repository provides a production-ready retail demand forecasting system using a trained deep learning model in TensorFlow and an API developed by FastAPI, fully deployed on AWS using Docker, ECR, and EC2.
 It allows users to send product/store features through an API and receive real-time demand forecasts over the internet.
 
