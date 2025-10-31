@@ -1,14 +1,15 @@
-# Retail-Demand-Forecasting-AWS-Deployment
-This project applies deep learning - Artificial Neural Network (ANN) - to build a model for **prediction of daily product demand in retail stores**.
+# Retail-Demand-Forecasting-AWS-Deployment !!!!!!
+This repository provides a production-ready retail demand forecasting system using a trained deep learning model in TensorFlow and an API developed by FastAPI, fully deployed on AWS using Docker, ECR, and EC2.
+It allows users to send product/store features through an API and receive real-time demand forecasts over the internet.
 
 ---
 
-## Project Overview
+## Project Overview !!!!!!!!
 Accurate  product demand forcast is a critical challenge in retail supply chains due to its direct effect on lost sales if it is lower and excess cost due to overstocking if it is higher. In this project, I used  Artificial Neural Networks (ANNs), one of the main methods in Deep Learning, to predict daily product demandin retail stores.
 **Business Insights:** Forecasting results provide actionable insights to minimize stock-outs, reduce excess inventory, and optimize replenishment planning.
 
 ---
-## Project Objectives and assumptions
+## Project Objectives and assumptions !!!!!!!!!!!!!!!
 
 - Build a model to predict daily demand for each product 
 - The model is built using Artificial Neural Networks (ANNs) - Deep Learning
@@ -19,13 +20,13 @@ Accurate  product demand forcast is a critical challenge in retail supply chains
 - **Frameworks:** The model is implemented using two major deep learning Python libraries: **PyTorch** and **TensorFlow**.
 - **GPU:** The model is designed to automatically use GPU (if available) for faster training, evaluation, and prediction.
 ---
-## Tools & Libraries used 
+## Tools & Libraries used !!!!!!!!!!!!!
 - **Programming Language:** Python
 - **Python Libraries:** Numpy, Pandas, Matplotlib, PyTorch, TensorFlow, keras_tuner, optuna
 - **Tool:** Google Colab with GPU, Git/GitHub
 
 ---
-## Dataset & Variables
+## Dataset & Variables !!!!!!!!!!!!
 The dataset was provided in Kaggle (see Acknowledgments section) and includes detailed of retail store inventory as a table named **retail_store_inventory** with below varaibles.
 - **number of Rows of the table:** ~73,000  
 - **Columns (variabes):** 15
@@ -49,7 +50,7 @@ The dataset was provided in Kaggle (see Acknowledgments section) and includes de
 | `Seasonality`           | Cyclical or seasonal effects influencing sales patterns (e.g., Autumn, winter, spring)                      |
 
 ---
-## Methodology
+## Methodology !!!!!!!!!!!!!
 1. **Data Preprocessing**  
    - Inspecting data
    - Handling missing values
@@ -78,12 +79,12 @@ The dataset was provided in Kaggle (see Acknowledgments section) and includes de
 | ANN (PyTorch)         |  75.71  |  0.99   |
 
 ---
-## PyTorch vs TensorFlow – My Observations
+## PyTorch vs TensorFlow – My Observations !!!!!!!!!!!!
 - **Both frameworks** have shown strong results in prediction of demand forcast.
 - **PyTorch:** More intuitive training loop, easier debugging.  
 - **TensorFlow/Keras:** More concise, production-ready, easier deployment with TensorFlow Serving. 
 ---
-## Project Structure
+## Project Structure !!!!!!!!!!!!!
 ```
 Retail-Demand-Forecasting-DeepLearning/
 ├── data/
@@ -115,18 +116,18 @@ Retail-Demand-Forecasting-DeepLearning/
 
 
 ---
-## Future Work
+## Future Work !!!!!!!!!!!!!1
 - Incorporate external features (holidays, promotions, weather)  
 - Experiment with sequence models (RNN/LSTM/GRU) for time-series demand  
 - Deploy the model with an API for real-time demand forecasting into cloud
 
 ---
-## Acknowledgments
+## Acknowledgments !!!!!!!!!!
 Dataset: [Kaggle-Retail Store Inventory Forecasting](https://www.kaggle.com/datasets/anirudhchauhan/retail-store-inventory-forecasting-dataset)  
 
 ---
 
-## Author
+## Author !!!!!!!!!!!!!
 
 **Abolfazl Zolfaghari**  
 [Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
