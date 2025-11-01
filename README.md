@@ -75,7 +75,7 @@ Input Retail Features via api  ──►  Deep Learning Model  ──► Predict
 The trained model takes store/product/time/contextual features and produces a real-time demand forecast through the deployed API.
 
 ---
-## Project Structure !!!!!!!!!!!!!
+## Project Structure
 ```
 AWS-Deployment-Retail-Demand-Forecasting/
 ├── Api_tensor_flow.py    #Api python code
