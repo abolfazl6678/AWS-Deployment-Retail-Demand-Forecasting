@@ -10,6 +10,26 @@ It allows users to send product/store features through an API and receive real-t
 - **Containerization:** Docker
 - **Version Control:** Git/GitHub
 ---
+## AWS Deployment Architecture
+
+| Component               | Purpose                                                     |
+|-------------------------|-------------------------------------------------------------|
+| `Docker`                | Containerized FastAPI + Model                               |
+| `Amazon ECR`            | Store Docker image                                          |
+| `EC2 Instance`          | Host application in the cloud                               |
+| `FastAPI`               | REST API for inference                                      |
+| `HTTP Public Endpoint`  | Users send features → get demand forecast                   |
+
+Deployment steps included:
+
+- 1. Save TensorFlow model and all dependenties locally
+- 2. Build Docker image
+- 3. Push to AWS ECR
+- 4. Pull on EC2 instance
+- 5. Run container and expose API
+- 6. Test Api and the model in Swagger 
+
+---
 ## Model Input & Output Variables
 The forecasting model uses structured retail data as input features to predict future product demand.
 
@@ -92,7 +112,11 @@ AWS-Deployment-Retail-Demand-Forecasting/
 ```
 ---
 ## API Documentation (Swagger UI)
-The API includes auto-generated Swagger documentation via FastAPI:
+The API includes auto-generated Swagger documentation via FastAPI (see swagger images in project folder).
+
+---
+## Live URL: 
+http://My_EC2_IP:8000/docs
 
 ---
 ## Future Work
