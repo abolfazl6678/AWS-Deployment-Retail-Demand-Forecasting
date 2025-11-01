@@ -59,17 +59,14 @@ AWS-Deployment-Retail-Demand-Forecasting/
 ├── swager_input_screen.png
 ├── swager_output_screen.png
 └── README.md
-
 ```
 ---
 ## API Documentation (Swagger UI)
 The API includes auto-generated Swagger documentation via FastAPI:
 
-
-
-
 ---
-## Future Work !!!!!!!!!!!!!
+## Future Work
+
 - Monitoring & logging (Grafana, Prometheus)  
 - Front-end dashboard for interactive forecasting  
 - CI/CD (GitHub Actions + AWS ECS / Lambda)
