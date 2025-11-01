@@ -1,0 +1,16 @@
+{
+  "Date": "2022-01-01",
+  "Store_ID": "S001",
+  "Product_ID": "P0001",
+  "Category": "Groceries",
+  "Region": "North",
+  "Inventory_Level": 231,
+  "Units_Sold": 127,
+  "Units_Ordered": 55,
+  "Price": 33.5,
+  "Discount": 20,
+  "Weather_Condition": "Rainy",
+  "Holiday_Promotion": 0,
+  "Competitor_Pricing": 29.69,
+  "Seasonality": "Autumn"
+}
