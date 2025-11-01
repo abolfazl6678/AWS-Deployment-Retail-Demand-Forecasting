@@ -3,7 +3,7 @@ This repository provides a production-ready retail demand forecasting system usi
 It allows users to send product/store features through an API and receive real-time demand forecasts over the internet.
 
 ---
-## Tools & Libraries used
+## Tools & Libraries Used
 - **ML:** TensorFlow, NumPy, Scikit-Learn, joblib
 - **API:** FastAPI, Uvicorn, pydantic
 - **Cloud:** AWS EC2, AWS ECR
@@ -115,7 +115,7 @@ AWS-Deployment-Retail-Demand-Forecasting/
 The API includes auto-generated Swagger documentation via FastAPI (see swagger images in project folder).
 
 ---
-## Live URL: 
+## Live URL to api: 
 http://My_EC2_IP:8000/docs
 
 ---
